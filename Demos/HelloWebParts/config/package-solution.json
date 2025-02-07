@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-web-parts-client-side-solution",
+    "id": "0c5d0b2d-1094-455a-adb2-b1b4194f59d8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "HelloWebParts description"
+      },
+      "longDescription": {
+        "default": "HelloWebParts description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hello-web-parts Feature",
+        "description": "The feature that activates elements of the hello-web-parts solution.",
+        "id": "c9377559-209a-49c3-8bf5-eb83ab14015e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-web-parts.sppkg"
+  }
+}

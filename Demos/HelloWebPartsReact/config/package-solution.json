@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-web-parts-react-client-side-solution",
+    "id": "02bac8cc-fedd-499f-b13f-9f33d5b3cde2",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "HelloWebPartsReact description"
+      },
+      "longDescription": {
+        "default": "HelloWebPartsReact description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hello-web-parts-react Feature",
+        "description": "The feature that activates elements of the hello-web-parts-react solution.",
+        "id": "648cdf02-4567-4130-af2c-6f58f38630c9",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-web-parts-react.sppkg"
+  }
+}
